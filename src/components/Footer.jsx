@@ -8,7 +8,7 @@ import RedditIcon   from '@mui/icons-material/Reddit';
 import logo from "../assets/anime.png"
 
 function Footer() {
-
+//all the icnons inported  from material UI 
   return (
     <>
     <div className="line_bg my-4 w-[100%]"></div>
@@ -23,7 +23,7 @@ function Footer() {
         <p className="m-2 text-2xl font-semibold cursor-pointer  hover:text-orange-600">Latest</p>
         <p className="m-2 text-2xl font-semibold cursor-pointer  hover:text-orange-600">contact us</p>
       </div>
-
+        
       <div className="flex justify-center items-start">
         <p className=" m-2 cursor-pointer  hover:text-black"><InstagramIcon></InstagramIcon></p>
         <p className=" m-2 cursor-pointer  hover:text-black"><FacebookIcon></FacebookIcon></p>
