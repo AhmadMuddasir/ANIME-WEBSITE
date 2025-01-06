@@ -11,7 +11,7 @@ const style = {
     height: 100,
   };
 
-
+//all companies details are here
 const  Companies =  () => (
     <>
   <div
@@ -21,6 +21,7 @@ const  Companies =  () => (
       background: '  linear-gradient(to bottom, #135175 0%, #3f397c 100%' ,
     }}
   >
+      
     <Carousel height={260} width={980} yOrigin={42} yRadius={48} autoPlay={true}>
       <div key={1} className='sm:w-[200px] sm:h-[200px] w-[100px] h-[100px]'>
         <img alt="" src={img1} />
